@@ -98,6 +98,10 @@
   .bg-page {
     background: var(--page);
   }
+
+  .text-accent-ink {
+    color: var(--accent-ink);
+  }
 }
 
 :root {
@@ -109,6 +113,7 @@
   --line: #9eb1bc;
   --border: rgba(36, 69, 86, 0.14);
   --accent: #087d9b;
+  --accent-ink: #ffffff;
   --accent-soft: rgba(8, 125, 155, 0.1);
   --glow: rgba(14, 165, 201, 0.12);
   --surface-shadow: 0 16px 45px rgba(21, 52, 66, 0.07);
@@ -123,6 +128,7 @@
   --line: #3d5864;
   --border: rgba(171, 214, 224, 0.13);
   --accent: #67d7e5;
+  --accent-ink: #06202a;
   --accent-soft: rgba(103, 215, 229, 0.11);
   --glow: rgba(22, 164, 188, 0.13);
   --surface-shadow: 0 16px 45px rgba(0, 0, 0, 0.18);
