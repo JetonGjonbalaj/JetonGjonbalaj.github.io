@@ -1,0 +1,1 @@
+This directory serves the purpose of containing my personal website.

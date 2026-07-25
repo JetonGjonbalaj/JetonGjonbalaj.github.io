@@ -1,0 +1,116 @@
+<!doctype html>
+<html class="dark" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Jeton Gjonbalaj is a Senior Software Engineer building reliable, scalable software for high-growth SaaS companies." />
+    <title>Jeton Gjonbalaj | Senior Software Engineer</title>
+    <script>
+      const savedTheme = localStorage.getItem("theme");
+      document.documentElement.classList.toggle("dark", savedTheme ? savedTheme === "dark" : true);
+    </script>
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body class="bg-page font-sans antialiased">
+    <div aria-hidden="true" class="page-grid pointer-events-none fixed inset-0 -z-10"></div>
+
+    <header class="nav-blur sticky top-0 z-20 border-b" style="border-color: var(--border)">
+      <nav class="shell flex h-16 items-center justify-between" aria-label="Main navigation">
+        <a href="#top" class="text-ink font-display text-xl font-bold tracking-tight">JG.</a>
+        <div class="hidden items-center gap-6 md:flex">
+          <a class="text-muted hover:text-ink text-sm transition-colors" href="#about">About</a>
+          <a class="text-muted hover:text-ink text-sm transition-colors" href="#impact">Impact</a>
+          <a class="text-muted hover:text-ink text-sm transition-colors" href="#skills">Skills</a>
+          <a class="text-muted hover:text-ink text-sm transition-colors" href="#experience">Experience</a>
+          <a class="text-muted hover:text-ink text-sm transition-colors" href="#contact">Contact</a>
+        </div>
+        <button data-theme-toggle class="surface text-ink inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-xs font-bold transition-transform hover:-translate-y-0.5" type="button" aria-pressed="true">
+          <svg aria-hidden="true" class="size-3.5 dark:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          <svg aria-hidden="true" class="hidden size-3.5 dark:block" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
+          <span data-theme-label>Light</span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="shell relative grid min-h-[calc(100svh-4rem)] items-center py-20 lg:grid-cols-[1.35fr_0.65fr] lg:gap-16">
+        <div aria-hidden="true" class="hero-glow pointer-events-none absolute -left-48 top-0 -z-10 size-[44rem]"></div>
+        <div>
+          <p class="eyebrow mb-7">Senior Software Engineer</p>
+          <h1 class="text-ink font-display text-6xl leading-[0.86] font-bold tracking-[-0.065em] sm:text-7xl lg:text-8xl">Jeton<br />Gjonbalaj</h1>
+          <div class="mt-8 border-l-2 pl-4" style="border-color: var(--accent)">
+            <p class="text-ink text-lg font-bold">Jet / JGjonB</p>
+            <p class="text-muted mt-1 text-sm">JGjonB: pronounced J-John-B</p>
+          </div>
+          <p class="text-muted mt-9 max-w-xl text-lg leading-8 sm:text-xl">I build reliable, scalable software and lead successful engineering projects in high-growth SaaS environments.</p>
+          <div class="mt-10 flex flex-wrap gap-3">
+            <a href="#experience" class="rounded-full px-5 py-3 text-sm font-bold text-[#06202a] transition-transform hover:-translate-y-0.5" style="background: var(--accent)">View experience</a>
+            <a href="Jeton_Gjonbalaj_Resume.pdf" download class="surface text-ink rounded-full px-5 py-3 text-sm font-bold transition-transform hover:-translate-y-0.5">Download resume</a>
+          </div>
+        </div>
+        <aside class="surface mt-16 rounded-2xl p-6 lg:mt-0" aria-label="Career overview">
+          <p class="text-muted text-xs font-bold tracking-[0.16em] uppercase">At a glance</p>
+          <dl class="mt-7 grid grid-cols-2 gap-x-5 gap-y-7">
+            <div><dt class="stat-value text-4xl font-bold">7+</dt><dd class="text-muted mt-1 text-sm">Years building software</dd></div>
+            <div><dt class="stat-value text-4xl font-bold">4</dt><dd class="text-muted mt-1 text-sm">Engineers led</dd></div>
+            <div><dt class="stat-value text-4xl font-bold">90%</dt><dd class="text-muted mt-1 text-sm">Performance improvement</dd></div>
+            <div><dt class="stat-value text-4xl font-bold">SaaS</dt><dd class="text-muted mt-1 text-sm">Startup to unicorn scale</dd></div>
+          </dl>
+          <div class="mt-8 border-t pt-5" style="border-color: var(--border)">
+            <p class="text-muted text-sm leading-6">Based in Prishtina, Kosovo. Working across backend systems, cloud infrastructure, data, and distributed architecture.</p>
+          </div>
+        </aside>
+      </section>
+
+      <section id="about" class="shell scroll-mt-24 py-20 lg:py-28">
+        <div class="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20">
+          <div><p class="eyebrow">About</p><h2 class="section-title mt-5">Depth, ownership, and practical delivery.</h2></div>
+          <div class="text-muted max-w-2xl space-y-6 text-lg leading-8">
+            <p>I’m a Senior Software Engineer who enjoys solving challenging problems and understanding the details behind them. I build reliable, maintainable systems with curiosity, ownership, and high standards.</p>
+            <p>I’ve worked with high-growth SaaS companies, from multimillion-dollar businesses to unicorn-scale organizations. My work spans backend systems, APIs, cloud infrastructure, data layers, and distributed architecture.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="impact" class="scroll-mt-24 py-20 lg:py-28" style="background: var(--accent-soft)">
+        <div class="shell">
+          <p class="eyebrow">Impact</p>
+          <div class="mt-5 flex flex-col justify-between gap-6 sm:flex-row sm:items-end"><h2 class="section-title max-w-xl">Engineering that moves products forward.</h2><p class="text-muted max-w-sm leading-6">A track record of translating ambitious goals into clear, durable technical outcomes.</p></div>
+          <div class="mt-12 grid gap-4 md:grid-cols-2">
+            <article class="surface rounded-2xl p-6"><p class="text-ink font-display text-3xl font-bold">Project leadership</p><p class="text-muted mt-3 leading-6">Led a team of four engineers and guided successful initiatives from technical planning through delivery.</p></article>
+            <article class="surface rounded-2xl p-6"><p class="text-ink font-display text-3xl font-bold">Scalable systems</p><p class="text-muted mt-3 leading-6">Improved feature performance by up to 90% and helped systems handle higher load with lower resource use.</p></article>
+            <article class="surface rounded-2xl p-6"><p class="text-ink font-display text-3xl font-bold">Architecture</p><p class="text-muted mt-3 leading-6">Contributed to product and architecture decisions shaping core development direction and microservice platforms.</p></article>
+            <article class="surface rounded-2xl p-6"><p class="text-ink font-display text-3xl font-bold">Team growth</p><p class="text-muted mt-3 leading-6">Mentored engineers in Node.js, GraphQL, and Redis while raising the team’s engineering capability.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="shell scroll-mt-24 py-20 lg:py-28">
+        <div class="grid gap-10 lg:grid-cols-[0.7fr_1.3fr] lg:gap-20"><div><p class="eyebrow">Technical focus</p><h2 class="section-title mt-5">A broad stack, used with intent.</h2></div>
+          <div class="grid gap-x-8 gap-y-8 sm:grid-cols-2">
+            <div class="border-t pt-4" style="border-color: var(--line)"><h3 class="text-ink font-bold">Languages</h3><p class="text-muted mt-2 leading-7">JavaScript, TypeScript, C#, Python</p></div>
+            <div class="border-t pt-4" style="border-color: var(--line)"><h3 class="text-ink font-bold">Backend</h3><p class="text-muted mt-2 leading-7">Node.js, Express, NestJS, Fastify, .NET Core, .NET Framework, FastAPI, Django</p></div>
+            <div class="border-t pt-4" style="border-color: var(--line)"><h3 class="text-ink font-bold">Cloud & infrastructure</h3><p class="text-muted mt-2 leading-7">AWS, Terraform, Docker, Argo CD, Redis</p></div>
+            <div class="border-t pt-4" style="border-color: var(--line)"><h3 class="text-ink font-bold">Data</h3><p class="text-muted mt-2 leading-7">PostgreSQL, Microsoft SQL Server, MongoDB</p></div>
+            <div class="border-t pt-4" style="border-color: var(--line)"><h3 class="text-ink font-bold">Messaging & streaming</h3><p class="text-muted mt-2 leading-7">RabbitMQ, Kafka, gRPC</p></div>
+            <div class="border-t pt-4" style="border-color: var(--line)"><h3 class="text-ink font-bold">Product engineering</h3><p class="text-muted mt-2 leading-7">APIs, microservices, GraphQL, testing, performance, architecture</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="shell scroll-mt-24 py-20 lg:py-28">
+        <p class="eyebrow">Experience</p><h2 class="section-title mt-5">Building for complex, real-world systems.</h2>
+        <div class="mt-12 border-l pl-6 lg:pl-10" style="border-color: var(--line)">
+          <article class="relative pb-12"><span aria-hidden="true" class="absolute -left-[1.95rem] top-1 size-3 rounded-full border-2 lg:-left-[2.7rem]" style="border-color: var(--accent); background: var(--page)"></span><div class="flex flex-col justify-between gap-3 sm:flex-row"><div><h3 class="text-ink text-xl font-bold">Software Engineer (backend-focused)</h3><p class="text-muted mt-1">Fresha · Prishtina</p></div><p class="text-muted text-sm font-bold">Dec 2025 - Present</p></div><p class="text-muted mt-4 max-w-2xl leading-7">Delivering international tax-compliance and e-invoicing systems. Recent work includes end-to-end TicketBAI integration for Spain’s Basque Country and a transaction-signing engine for French NF525 certification.</p></article>
+          <article class="relative pb-12"><span aria-hidden="true" class="absolute -left-[1.95rem] top-1 size-3 rounded-full border-2 lg:-left-[2.7rem]" style="border-color: var(--accent); background: var(--page)"></span><div class="flex flex-col justify-between gap-3 sm:flex-row"><div><h3 class="text-ink text-xl font-bold">Senior Software Engineer</h3><p class="text-muted mt-1">Radix · Prishtina</p></div><p class="text-muted text-sm font-bold">May 2024 - Dec 2025</p></div><p class="text-muted mt-4 max-w-2xl leading-7">Led four engineers, shaped product and architecture decisions, developed a shared dependency-free JavaScript library, and improved feature performance by up to 90%.</p></article>
+          <article class="relative"><span aria-hidden="true" class="absolute -left-[1.95rem] top-1 size-3 rounded-full border-2 lg:-left-[2.7rem]" style="border-color: var(--accent); background: var(--page)"></span><div class="flex flex-col justify-between gap-3 sm:flex-row"><div><h3 class="text-ink text-xl font-bold">Software Engineer</h3><p class="text-muted mt-1">Radix · Prishtina</p></div><p class="text-muted text-sm font-bold">Nov 2021 - May 2024</p></div><p class="text-muted mt-4 max-w-2xl leading-7">Helped build a microservices architecture while designing systems, implementing custom components, and setting performance, security, and quality standards.</p></article>
+        </div>
+      </section>
+
+      <section id="contact" class="shell scroll-mt-24 py-20 lg:py-28"><div class="surface relative overflow-hidden rounded-3xl px-6 py-14 sm:px-12"><div aria-hidden="true" class="hero-glow pointer-events-none absolute -right-48 -top-48 size-[35rem]"></div><p class="eyebrow">Contact</p><h2 class="section-title relative mt-5 max-w-2xl">Let’s make the next difficult problem a little simpler.</h2><p class="text-muted relative mt-6 max-w-xl text-lg leading-8">Open to meaningful conversations, technical collaborations, and opportunities where strong engineering quality matters.</p><div class="relative mt-10 flex flex-wrap gap-3"><a class="rounded-full px-5 py-3 text-sm font-bold text-[#06202a] transition-transform hover:-translate-y-0.5" style="background: var(--accent)" href="mailto:jetonmgjonbalaj@gmail.com">Email me</a><a class="surface text-ink rounded-full px-5 py-3 text-sm font-bold transition-transform hover:-translate-y-0.5" href="https://www.linkedin.com/in/jeton-gjonbalaj/" target="_blank" rel="noreferrer">LinkedIn</a><a class="surface text-ink rounded-full px-5 py-3 text-sm font-bold transition-transform hover:-translate-y-0.5" href="https://github.com/JetonGjonbalaj" target="_blank" rel="noreferrer">GitHub</a></div></div></section>
+    </main>
+
+    <footer class="shell flex flex-col gap-2 border-t py-8 text-sm sm:flex-row sm:justify-between" style="border-color: var(--border)"><p class="text-muted">&copy; <span data-current-year></span> Jeton Gjonbalaj.</p><p class="text-muted">Built with HTML, Tailwind CSS, and JavaScript.</p></footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

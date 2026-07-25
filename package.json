@@ -1,0 +1,29 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Personal portfolio for Jeton Gjonbalaj.",
+  "scripts": {
+    "css:watch": "tailwindcss -i ./src/input.css -o ./assets/styles.css --watch",
+    "serve": "serve . -l 3000",
+    "dev": "concurrently \"npm run css:watch\" \"npm run serve\"",
+    "build": "tailwindcss -i ./src/input.css -o ./assets/styles.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JetonGjonbalaj/personal-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JetonGjonbalaj/personal-website/issues"
+  },
+  "homepage": "https://github.com/JetonGjonbalaj/personal-website#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "concurrently": "^10.0.4",
+    "serve": "^14.2.6",
+    "tailwindcss": "^4.3.3"
+  }
+}
