@@ -7,8 +7,7 @@
     <title>Social | Jeton Gjonbalaj</title>
     <script>
       const savedTheme = localStorage.getItem("theme");
-      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-      document.documentElement.classList.toggle("dark", savedTheme ? savedTheme === "dark" : prefersDark);
+      document.documentElement.classList.toggle("dark", savedTheme === "dark");
     </script>
     <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="./assets/styles.css" />
