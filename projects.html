@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Selected projects by Jeton Gjonbalaj." />
+    <title>Projects | Jeton Gjonbalaj</title>
+    <script>
+      const savedTheme = localStorage.getItem("theme");
+      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      document.documentElement.classList.toggle("dark", savedTheme ? savedTheme === "dark" : prefersDark);
+    </script>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <header class="site-header"><nav class="site-shell site-nav" aria-label="Main navigation"><a class="site-mark" href="./index.html">JG.</a><div class="nav-links"><a href="./index.html">Home</a><a href="./about.html">About</a><a href="./social.html">Social</a><a href="./Jeton_Gjonbalaj_Resume.pdf">Resume</a><button class="theme-toggle" data-theme-toggle type="button" aria-pressed="false" aria-label="Switch to dark theme"><svg class="theme-icon theme-moon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z" /></svg><svg class="theme-icon theme-sun" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" /></svg></button></div></nav></header>
+    <main class="site-shell page-content">
+      <p class="page-kicker">Things I’ve built</p>
+      <h1 class="page-title">Projects</h1>
+      <ul class="list content-section">
+        <li><a class="list-title" href="https://github.com/JetonGjonbalaj" target="_blank" rel="noreferrer">GitHub projects</a><div class="list-description">A collection of experiments, tools, and software work.</div></li>
+        <li><a class="list-title" href="https://github.com/JetonGjonbalaj" target="_blank" rel="noreferrer">Backend systems</a><div class="list-description">APIs, services, integrations, and data systems built for real-world products.</div></li>
+        <li><a class="list-title" href="./Jeton_Gjonbalaj_Resume.pdf">Professional work</a><div class="list-description">Selected experience across SaaS, cloud infrastructure, and distributed architecture.</div></li>
+      </ul>
+    </main>
+    <footer class="site-shell site-footer">&copy; <span data-current-year></span> Jeton Gjonbalaj.</footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
