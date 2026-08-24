@@ -52,6 +52,23 @@ if (themeToggle) {
   setTheme(root.classList.contains("dark") ? "dark" : "light");
 }
 
+const olderExperienceToggle = document.querySelector("[data-older-experience-toggle]");
+const olderExperiences = document.querySelector("[data-older-experiences]");
+
+if (olderExperienceToggle && olderExperiences) {
+  olderExperiences.hidden = true;
+  olderExperienceToggle.hidden = false;
+
+  olderExperienceToggle.addEventListener("click", () => {
+    const isExpanded = olderExperienceToggle.getAttribute("aria-expanded") === "true";
+    const willExpand = !isExpanded;
+
+    olderExperiences.hidden = !willExpand;
+    olderExperienceToggle.setAttribute("aria-expanded", String(willExpand));
+    olderExperienceToggle.textContent = willExpand ? "Hide older experiences" : "Show older experiences";
+  });
+}
+
 const currentYear = document.querySelector("[data-current-year]");
 
 if (currentYear) {
